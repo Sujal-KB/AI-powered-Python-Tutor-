@@ -6,3 +6,5 @@ openai
 tiktoken
 faiss-cpu
 youtube-transcript-api
+langchain-openai
+langchain-experimental
