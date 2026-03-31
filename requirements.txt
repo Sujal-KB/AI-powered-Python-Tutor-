@@ -12,4 +12,4 @@ yt-dlp
 requests
 langchain-text-splitters
 sentence-transformers
-deep-translators
+deep-translator
