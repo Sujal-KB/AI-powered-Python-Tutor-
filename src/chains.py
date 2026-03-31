@@ -10,7 +10,6 @@ Generate a clear and structured summary.
 
 Rules:
 - Only use the transcript
-- If insufficient → return "Insufficient context"
 - 5–6 bullet points
 - No assumptions
 
@@ -22,7 +21,7 @@ Transcript:
 
     qna_prompt = PromptTemplate(
         template="""
-Answer ONLY using the context.
+Answer the question:
 
 Context:
 {context}
@@ -31,8 +30,6 @@ Question:
 {question}
 
 Rules:
-- If answer not found → "Insufficient context"
-- No assumptions
 - Be precise
 
 Answer:
