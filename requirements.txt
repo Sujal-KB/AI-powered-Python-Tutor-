@@ -8,7 +8,6 @@ faiss-cpu
 youtube-transcript-api
 langchain-openai
 langchain-experimental
-yt-dlp
 requests
 langchain-text-splitters
 sentence-transformers
